@@ -1,0 +1,9 @@
+/* only styling "div" element here as the others will be changed via the other methods (internal CSS and inline CSS) */
+
+div {
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
