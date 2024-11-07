@@ -1,26 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body {
+body{
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
-img {
+img{
   width: 600px;
+  margin-left: -100px;
+  margin-right: -100px;
 }
 
-button {
+button{
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-input {
+input{
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header,
+.footer{
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.left-links,
+.right-links{
+  display: flex;
+  gap: 15px;
+}
+
+.content{
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.odin-pic{
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+}
+
+.buttons{
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.input{
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer{
+  align-self: flex-end;
+  background: #eee;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active{
+  text-decoration: none;
+  color: rgb(82, 82, 82);
 }
